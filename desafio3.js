@@ -4,7 +4,7 @@ class infosHeroi {
         this.nome = nome
         this.idade = idade
         this.tipo = tipo
-        this.ataque = this.defineAtaque
+        this.ataque = this.defineAtaque()
     }
 
     defineAtaque()
@@ -31,11 +31,9 @@ class infosHeroi {
     }
 
     atacar() {
-        console.log(`O ${tipo} atacou usando ${ataque}`)
+        console.log(`O ${this.tipo} atacou usando ${this.ataque}`)
     }
 }
 
-
-
-let heroiEscolhido = new infosHeroi("Jorge", 713, "Monge")
+let heroiEscolhido = new infosHeroi("Jorge", 713, "Mago")
 heroiEscolhido.atacar()
