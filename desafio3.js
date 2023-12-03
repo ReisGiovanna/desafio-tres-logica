@@ -30,3 +30,6 @@ else if (this.tipo === "Ninja")
 {
     this.ataque = "Shuriken"
 }
+
+let heroiEscolhido = new infosHeroi("Jorge", 713, "Monge")
+heroiEscolhido.atacar()
