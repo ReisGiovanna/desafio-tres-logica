@@ -11,3 +11,22 @@ class infosHeroi {
     }
 }
 
+if (this.tipo === "Monge")
+{
+    this.ataque = "Artes Marciais"
+}
+
+else if (this.tipo === "Mago")
+{
+    this.ataque = "Magia"
+}
+
+else if (this.tipo === "Guerreiro")
+{
+    this.ataque = "Espada"
+}
+
+else if (this.tipo === "Ninja")
+{
+    this.ataque = "Shuriken"
+}
